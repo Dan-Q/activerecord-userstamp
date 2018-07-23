@@ -14,17 +14,22 @@ models that are subject to being created, updated, or deleted by stampers.
 
 This is a fork of:
 
- - the [magiclabs-userstamp](https://github.com/magiclabs/userstamp) gem
+ - lowjoel/activerecord-userstamp
+ - which is a fork of the [magiclabs-userstamp](https://github.com/magiclabs/userstamp) gem
  - which is a fork of [Michael Grosser's](https://github.com/grosser)
    [userstamp gem] (https://github.com/grosser/userstamp) 
  - which is a fork of the original [userstamp plugin](https://github.com/delynn/userstamp) by
    [delynn](https://github.com/delynn)
 
-In addition to these, I have cherry picked ideas and changes from the following forks:
+lowjoel/activerecord-userstamp cherry picked ideas and changes from the following forks:
 
  - [simplificator](https://github.com/simplificator/userstamp)
  - [akm](https://github.com/akm/magic_userstamp)
  - [konvenit](https://github.com/konvenit/userstamp)
+ 
+I added:
+ 
+ - Support for Rails 5.2 (and 5.1 without deprecation warnings for use of model#changed?)
 
 Finally, this gem only supports Ruby 2.0 and above. Yes, you really should upgrade to a supported
 version of Ruby. This gem is tested only on Rails 4.2; but it should work with Rails 4+.
